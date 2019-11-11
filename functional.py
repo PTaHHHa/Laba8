@@ -36,7 +36,7 @@ class Funct:
                     self.my_list.remove(element)
                     print(self.my_list)
             except:
-                print("Something went wrong, my nigga")
+                print("Element doesn't exist")
         print(self.my_list)
 
     def reverse(self):
@@ -57,7 +57,7 @@ class Funct:
             if element in self.my_list:
                 print("Element %s is located at %s position" % (element, self.my_list.index(element)))
             else:
-                print("Sorry, my nigga")
+                print("Couldn't find any match")
 
     def count(self):
         new_list = []
