@@ -103,6 +103,8 @@ class Funct:
         print("Input str to search for in list:")
         while True:
             element = input()
+            if not element:
+                break
             for item in self.my_list:
                 if element in item:
                     print("%s was found in %s " % (element, item))
