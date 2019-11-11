@@ -64,7 +64,6 @@ class Funct:
         for i in self.my_list:
             cur = len(i)
             new_list.append(cur)
-        new_list.sort()
         print(new_list)
 
     def compare(self):

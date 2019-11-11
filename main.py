@@ -9,7 +9,7 @@ def menu():
     print("2. Remove element")
     print("3. Reverse list")
     print("4. Search element in list")
-    print("5. Count elements in list")
+    print("5. Count character of elements in list")
     print("6. Compare elements in list")
     print("7. Create XML-file from list")
     print("8. Read from file")
