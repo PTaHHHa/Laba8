@@ -14,7 +14,7 @@ def menu():
     print("7. Create XML-file from list")
     print("8. Read from file")
     print("9. Inner search")
-    print("10. Character check (work in progress)")
+    print("10. Character check")
 
 
 while True:
