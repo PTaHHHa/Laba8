@@ -1,7 +1,4 @@
-import numpy as np
 import xml.etree.ElementTree as xml
-import string
-from colorama import *
 
 
 class Funct:
