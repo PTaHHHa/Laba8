@@ -40,12 +40,10 @@ class Funct:
         print(self.my_list)
 
     def reverse(self):
-        new_list = []
         print(self.my_list)
         print("Reversed string")
-        for i in self.my_list:
-            new_list.append(i[::-1])
-        print(new_list)
+        self.my_list.reverse()
+        print(self.my_list)
 
     def search(self):
         print(self.my_list)
